@@ -1,5 +1,5 @@
 <!-- @Author Theresa Wunderlich-->
-<!-- @Date 2.15.2024-->
+<!-- @Date 2.21.2024-->
 
 
 <resources>
@@ -23,9 +23,9 @@
     Solution: I used the example code from this post.
     */
     <string-array name="hairStyle_array">
-        <item>Short</item>
-        <item>Medium</item>
         <item>Long</item>
+        <item>Medium</item>
+        <item>Short</item>
     </string-array>
 
 </resources>

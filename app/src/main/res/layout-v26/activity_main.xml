@@ -14,8 +14,7 @@
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent">
 
-
-        <SurfaceView
+        <com.example.customcolorapp.Face
             android:id="@+id/surfaceView"
             android:layout_width="640dp"
             android:layout_height="match_parent" />
@@ -55,7 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:max="255"
-            android:min="0" />
+            android:min="0"
+            android:progress="0"/>
 
         <TextView
             android:id="@+id/greenTextLabel"
@@ -69,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:max="255"
-            android:min="0" />
+            android:min="0"
+            android:progress="0"/>
 
         <TextView
             android:id="@+id/blueTextLabel"
@@ -83,7 +84,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="5"
             android:max="255"
-            android:min="0" />
+            android:min="0"
+            android:progress="0"/>
 
         <TextView
             android:id="@+id/hairStyleLabel"
@@ -105,6 +107,7 @@
             android:text="@string/chose_one_of_the_three_elements_below_to_customize" />
 
         <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -131,9 +134,9 @@
             android:id="@+id/randomFace"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
             android:layout_weight="3"
-            android:text="@string/random_face"
-            android:layout_marginBottom="80dp"/>
+            android:text="@string/random_face" />
 
     </LinearLayout>
 
